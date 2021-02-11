@@ -1,0 +1,13 @@
+@import './general/index';
+@import './partials/index';
+@import './sections/index';
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    scroll-behavior: smooth;
+}

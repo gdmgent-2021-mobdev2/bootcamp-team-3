@@ -1,0 +1,42 @@
+footer {
+    background-color: $color-blue;
+    padding: $wrapper-padding;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 200px;
+
+    .text {
+        width: 600px;
+        * {
+            color: white;
+        }
+    }
+
+    form {
+        input, button {
+            float: left;
+            border: none;
+            outline: none;
+            height: 50px;
+            padding: 0;
+            margin: 0;
+        }
+
+        input {
+            background-color: white;
+            padding-left: 20px;
+            width: 250px;
+            border-bottom-left-radius: 50px;
+            border-top-left-radius: 50px;
+        }
+
+        button {
+            background-color: $color-light-blue;
+            border-bottom-right-radius: 50px;
+            border-top-right-radius: 50px;
+            width: 100px;
+            color: white;
+        }
+    }
+}

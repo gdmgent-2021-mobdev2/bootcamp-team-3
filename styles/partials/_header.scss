@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: $wrapper-padding;
+    height: $height-header;
+
+    .logo {
+        height: 80px;
+
+        img {
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .navbar {
+        width: 500px;
+        ul {
+            display: flex;
+            justify-content: space-between;
+
+            li {
+                list-style-type: none;
+
+                a {
+                    text-decoration: none;
+                    color: $color-title;
+                    transition: .2s;
+
+                    &:hover {
+                        color: $color-light-blue;
+                        transition: all .2s ease-in-out;
+                    }
+                }
+            }
+        }
+    }
+}
