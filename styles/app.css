@@ -195,13 +195,16 @@ footer form button {
 }
 
 .section1 .image {
-  width: 1037px;
+  width: 50%;
+  margin-left: 20px;
+  border-radius: 500px;
 }
 
 .section1 .image img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  border-radius: 20px;
 }
 
 @media screen and (max-width: 768px) {

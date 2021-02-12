@@ -38,11 +38,14 @@
     }
 
     .image {
-        width: 1037px;
+        width: 50%;
+        margin-left: 20px;
+        border-radius: 500px;
 
         img {
             width: 100%;
             object-fit: cover;
+            border-radius: 20px;
         }
     }
 }
