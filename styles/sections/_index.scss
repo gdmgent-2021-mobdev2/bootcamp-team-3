@@ -5,3 +5,9 @@
 section {
     padding: $wrapper-padding;
 }
+
+@media screen and (max-width: 768px) {
+    section {
+        margin: 20px 0;
+    }
+}

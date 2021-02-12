@@ -40,3 +40,22 @@
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+    .section2 {
+        flex-direction: column;
+        height: auto;
+
+        .content {
+            width: 100%;
+        }
+
+        .cards {
+            flex-direction: column;
+
+            .card {
+                margin: 20px 0;
+            }
+        }
+    }   
+}

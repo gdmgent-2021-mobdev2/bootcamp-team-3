@@ -40,3 +40,23 @@ footer {
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        padding: 30px 10%;
+        height: auto;
+
+        .text {
+            height: auto;
+            width: auto;
+        }
+
+        form {
+            width: auto;
+            input {
+                width: 53%;
+            }
+        }
+    }
+}

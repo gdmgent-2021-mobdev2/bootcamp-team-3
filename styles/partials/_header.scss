@@ -1,6 +1,7 @@
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: $wrapper-padding;
     height: $height-header;
 
@@ -15,6 +16,7 @@ header {
 
     .navbar {
         width: 500px;
+
         ul {
             display: flex;
             justify-content: space-between;
@@ -34,5 +36,11 @@ header {
                 }
             }
         }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px 10px;
     }
 }
